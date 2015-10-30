@@ -1,11 +1,11 @@
 # Nets150FinalProject
-Chillier not chiller
-Anna Mendelson, Elizabeth Nammour, and Ali Kozlu
-NETS 150
-Due May 4, 2015
-Chillier, Not Chiller: Analyzing Twitter Data to Confirm the West-Coast-Is-More-Chill
-Hypothesis
-Introduction
+Chillier not chiller \n
+Anna Mendelson, Elizabeth Nammour, and Ali Kozlu \n
+NETS 150 \n
+Due May 4, 2015 \n
+Chillier, Not Chiller: Analyzing Twitter Data to Confirm the West-Coast-Is-More-Chill \n
+Hypothesis \n
+Introduction \n
 West Coasters love to brag about their laidback
 demeanor while stereotyping East Coasters as
 neurotic cynics who cannot distinguish the smell of a rose. But are these claims justified? We
@@ -15,12 +15,12 @@ sent from both sides of the country. By comparing the frequency words that we de
 suggestive of “chill” personalities (e.g., “chill,” “cool,” “nice”) to the frequency of those that
 suggest neuroticism (e.g., “omg,” “ugh,” ‘hate,” “wow”), we calculated the “chill/neurotic
 ratios” of various locations. Based on these metrics, we evaluated “chillness” on both coasts in
-attempt to settle the civil dispute of our generation.
-Hypothesis
+attempt to settle the civil dispute of our generation. \n
+Hypothesis \n
 We examined the following hypothesis: the ratio of “chill” words to “neurotic” words used by
-the West Coast is greater.
-Procedure
-Part 1: Accessing the Twitter API and using Twitter4J library
+the West Coast is greater. \n
+Procedure \n
+Part 1: Accessing the Twitter API and using Twitter4J library \n
 To interact with Twitter and gain access to tweets sent by our target groups, we created several
 Twitter applications and generated Twitter API keys, access tokens and secret keys. After receiving our credentials to access Twitter API, our group started looking through open
 source Java libraries to i ntegrate our Java application with the Twitter service. Twitter4J i s an
@@ -28,37 +28,38 @@ unofficial Java library for the Twitter API.
 Part 2: Setting up the connection
 In this part we focused on creating a successful connection to Twitter API 1.1. We created a
 Setup class, which was responsible for creating necessary access to Twitter API for our purposes.
-In pseudo code, it works in the following way:
+\n
+The procedure worked the following way:
 Receive
-a ConfigurationBuilder object as input.
+a ConfigurationBuilder object as input. \n
 Set
-up the necessary authorizations for our ConfigurationBuilder.
+up the necessary authorizations for our ConfigurationBuilder. \n
 Return
-a Twitter object for the other classes to use.
-Part 3: Reading tweets from a specific geolocation
+a Twitter object for the other classes to use. \n
+Part 3: Reading tweets from a specific geolocation \n
 To test our hypothesis, we needed to access large amounts of tweets sent by users in a very
 specific geographic location. Our solution was to use a data class in Twitter4J library called
 GeoLocation. In each run of our program, we specified a certain geographic location and created
 a specific query with our geographic location. Then we used the Query class (within the
 Twitter4J library) to search for the tweets. The TweetReader class received the Twitter object
-from Setup class, so we just had to call the search method of our Twitter object.
-Part 4: Reading the tweets in JSON format and statuses text format
+from Setup class, so we just had to call the search method of our Twitter object. \n
+Part 4: Reading the tweets in JSON format and statuses text format \n
 As we read the tweets, we saved them in a hash table that mapped each tweet’s unique ID to its
 text. This hashtable guaranteed that we did not receive the text of the same tweet twice. We then
 created a word map that mapped each word to its frequency using a hash map. We also received
 JSON data from each tweet that we read for crosschecking
-purposes.
-Part 5: Storing the Tweets in JSON format and text format
+purposes. \n
+Part 5: Storing the Tweets in JSON format and text format \n
 We created a Logger class and used the Observer Observable
 Pattern to write the text of each
 tweet to a text file we called “testfile.txt.”. Our program design made sure that every time we
 read a status, the text of that status was added to a text file. We used this file to test the map we
 created for our hypothesis. JUnit test case was written to make sure we mapped the right word,
-frequency map. The results are represented in the last part.
-Part 6: Creating the main method
+frequency map. The results are represented in the last part. \n
+Part 6: Creating the main method \n
 We created one set of words we deemed “chill” words, which tend to have mild, positive
 connotations, and one set of words we deemed “neurotic” words, which tend to have more
-passionate, negative connotations.
+passionate, negative connotations. \n
 We selected four cities on the East Coast (Boston, New York, Philadelphia, and Washington
 D.C.) and four cities on the West Coast (Seattle, Palo Alto, Los Angeles, and San Diego) and
 retrieved the most recent 2,000 tweets within a 5mile
@@ -68,8 +69,8 @@ method produces a count of each word in each of the two word sets and calculates
 the past 2000 tweets sent within a 5mile
 radius from a given location (specified by latitude and
 longitude points in TweetReader.java), divided by the number of occurrences of “neurotic”
-words found within those tweets.
-Analysis and Conclusion
+words found within those tweets. \n
+Analysis and Conclusion \n
 We found that the average East Coast chill/neurotic ratio (1.4032) is lower than the average West
 Coast chill/neurotic ratio (1.8729). Therefore, even though both coasts use “chill” words more
 often than they use “neurotic” ones (most likely because the “chill” words we chose were more
@@ -86,6 +87,7 @@ causation. That said, the fact that tweets sent on the West Coast contain more
 one’s words, let alone one’s tweets, do not necessarily reflect one’s state of mind. Nonetheless,
 we now know that West Coasters are a t least consistent with their speech and their stated
 attitude.
+\m
 Another flaw with our experiment is the data size. Because of restrictions on how many calls we
 could make to the Twitter API, we had to limit our data size to 2,000 tweets per location and
 only eight locations (even with the four separate developer accounts that we created). Also,
