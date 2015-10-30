@@ -1,0 +1,191 @@
+Philadelphia:
+cool: 111
+nice: 117
+chill: 16
+fun: 59
+kind: 10
+yes: 18
+great: 326
+sweet: 30
+awesome: 29
+lovely: 11
+ugh: 63
+hate: 124
+no: 444
+worst: 4
+omg: 63
+crazy: 64
+terrible: 16
+wtf: 12
+seriously: 32
+CHILL TOTAL: 727
+NEUROTIC TOTAL: 822
+CHILL/NEUROTIC RATIO: 0.8844282238442822
+
+New York:
+cool: 48
+nice: 114
+fun: 55
+yay: 10
+kind: 36
+yes: 33
+great: 241
+sweet: 76
+awesome: 81
+lovely: 99
+ok: 30
+ugh: 20
+hate: 40
+no: 338
+worst: 17
+omg: 23
+wow: 1
+wtf: 6
+seriously: 9
+CHILL TOTAL: 823
+NEUROTIC TOTAL: 454
+CHILL/NEUROTIC RATIO: 1.8127753303964758
+
+Boston:
+cool: 76
+nice: 78
+fun: 27
+yay: 18
+yes: 43
+great: 393
+sweet: 35
+okay: 13
+awesome: 32
+lovely: 40
+ok: 32
+hate: 22
+no: 808
+worst: 1
+wow: 20
+crazy: 80
+seriously: 42
+CHILL TOTAL: 787
+NEUROTIC TOTAL: 973
+CHILL/NEUROTIC RATIO: 0.8088386433710175
+
+DC:
+cool: 30
+nice: 88
+fun: 86
+kind: 41
+yes: 43
+great: 227
+sweet: 37
+okay: 8
+awesome: 69
+lovely: 123
+ok: 17
+ugh: 1
+hate: 22
+no: 178
+worst: 16
+omg: 32
+wow: 2
+crazy: 36
+terrible: 1
+wtf: 7
+seriously: 70
+CHILL TOTAL: 769
+NEUROTIC TOTAL: 365
+CHILL/NEUROTIC RATIO: 2.106849315068493
+
+Los Angeles:
+cool: 7
+mellow: 18
+nice: 90
+chill: 27
+fun: 184
+kind: 49
+yes: 50
+great: 319
+sweet: 71
+okay: 19
+awesome: 51
+lovely: 45
+ok: 29
+no: 363
+worst: 2
+omg: 45
+wow: 26
+crazy: 77
+wtf: 3
+seriously: 10
+CHILL TOTAL: 959
+NEUROTIC TOTAL: 526
+CHILL/NEUROTIC RATIO: 1.8231939163498099
+
+San Diego:
+cool: 15
+nice: 44
+chill: 24
+fun: 342
+yay: 34
+kind: 2
+yes: 6
+great: 354
+sweet: 13
+okay: 13
+awesome: 86
+lovely: 89
+ok: 123
+hate: 5
+no: 417
+worst: 13
+wow: 17
+crazy: 25
+wtf: 6
+CHILL TOTAL: 1145
+NEUROTIC TOTAL: 483
+CHILL/NEUROTIC RATIO: 2.370600414078675
+
+Seattle:
+cool: 51
+nice: 113
+fun: 120
+kind: 41
+yes: 43
+great: 509
+sweet: 92
+okay: 5
+awesome: 61
+lovely: 39
+ok: 42
+ugh: 18
+hate: 38
+no: 510
+worst: 18
+awful: 8
+wow: 52
+CHILL TOTAL: 1116
+NEUROTIC TOTAL: 644
+CHILL/NEUROTIC RATIO: 1.73291925
+
+Palo Alto:
+cool: 30
+nice: 92
+chill: 5
+fun: 111
+kind: 39
+great: 360
+sweet: 9
+awesome: 70
+lovely: 24
+no: 350
+worst: 16
+omg: 43
+wow: 4
+crazy: 13
+unbelievable: 10
+wtf: 17
+seriously: 20
+CHILL TOTAL: 740
+NEUROTIC TOTAL: 473
+CHILL/NEUROTIC RATIO: 1.5644820295983086
+
+AVERAGE EAST COAST CHILL/NEUROTIC RATIO: 1.4032
+AVERAGE WEST COAST CHILL/NEUROTIC RATIO: 1.8729

@@ -1,0 +1,150 @@
+{  
+   "metadata":{  
+      "result_type":"recent",
+      "iso_language_code":"en"
+   },
+   "in_reply_to_status_id_str":null,
+   "in_reply_to_status_id":null,
+   "coordinates":{  
+      "coordinates":[  
+         -75.1718508,
+         39.9839059
+      ],
+      "type":"Point"
+   },
+   "created_at":"Fri May 01 06:26:04 +0000 2015",
+   "truncated":false,
+   "in_reply_to_user_id_str":null,
+   "source":"<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android<\/a>",
+   "retweet_count":0,
+   "retweeted":false,
+   "geo":{  
+      "coordinates":[  
+         39.9839059,
+         -75.1718508
+      ],
+      "type":"Point"
+   },
+   "in_reply_to_screen_name":null,
+   "entities":{  
+      "urls":[  
+
+      ],
+      "hashtags":[  
+
+      ],
+      "user_mentions":[  
+
+      ],
+      "symbols":[  
+
+      ]
+   },
+   "id_str":"594024971321614337",
+   "in_reply_to_user_id":null,
+   "favorite_count":0,
+   "id":594024971321614337,
+   "text":"Heavily Medicated 💊🌿🍃",
+   "place":{  
+      "country_code":"US",
+      "country":"United States",
+      "contained_within":[  
+
+      ],
+      "full_name":"Philadelphia, PA",
+      "bounding_box":{  
+         "coordinates":[  
+            [  
+               [  
+                  -75.280284,
+                  39.871811
+               ],
+               [  
+                  -74.955712,
+                  39.871811
+               ],
+               [  
+                  -74.955712,
+                  40.13792
+               ],
+               [  
+                  -75.280284,
+                  40.13792
+               ]
+            ]
+         ],
+         "type":"Polygon"
+      },
+      "place_type":"city",
+      "name":"Philadelphia",
+      "attributes":{  
+
+      },
+      "id":"e4a0d228eb6be76b",
+      "url":"https://api.twitter.com/1.1/geo/id/e4a0d228eb6be76b.json"
+   },
+   "contributors":null,
+   "lang":"en",
+   "user":{  
+      "utc_offset":-18000,
+      "friends_count":1999,
+      "profile_image_url_https":"https://pbs.twimg.com/profile_images/583513394646507521/yUI6Ugi3_normal.jpg",
+      "listed_count":4,
+      "profile_background_image_url":"http://pbs.twimg.com/profile_background_images/454137170060525568/bLzYHpq2.jpeg",
+      "default_profile_image":false,
+      "favourites_count":11561,
+      "description":"Owner&Designer Of TL Brand Clothing/CoHost of the LadyVi Show/Fashion Bull/Aug 24th/Captain of Young Kings/Young and Trying to Get it/Look Sharp + Live Smart",
+      "created_at":"Thu Aug 18 19:22:42 +0000 2011",
+      "is_translator":false,
+      "profile_background_image_url_https":"https://pbs.twimg.com/profile_background_images/454137170060525568/bLzYHpq2.jpeg",
+      "protected":false,
+      "screen_name":"Trendy__S",
+      "id_str":"357692755",
+      "profile_link_color":"0A6161",
+      "is_translation_enabled":false,
+      "id":357692755,
+      "geo_enabled":true,
+      "profile_background_color":"1B6E94",
+      "lang":"en",
+      "profile_sidebar_border_color":"FFFFFF",
+      "profile_text_color":"333333",
+      "verified":false,
+      "profile_image_url":"http://pbs.twimg.com/profile_images/583513394646507521/yUI6Ugi3_normal.jpg",
+      "time_zone":"Central Time (US & Canada)",
+      "url":"http://t.co/HsowW15gG8",
+      "contributors_enabled":false,
+      "profile_background_tile":true,
+      "profile_banner_url":"https://pbs.twimg.com/profile_banners/357692755/1397109794",
+      "entities":{  
+         "description":{  
+            "urls":[  
+
+            ]
+         },
+         "url":{  
+            "urls":[  
+               {  
+                  "display_url":"instagram.com/trendy__s",
+                  "indices":[  
+                     0,
+                     22
+                  ],
+                  "expanded_url":"http://instagram.com/trendy__s",
+                  "url":"http://t.co/HsowW15gG8"
+               }
+            ]
+         }
+      },
+      "statuses_count":8258,
+      "follow_request_sent":false,
+      "followers_count":1013,
+      "profile_use_background_image":true,
+      "default_profile":false,
+      "following":false,
+      "name":"HighLevelKing♍️",
+      "location":"Philadelphia",
+      "profile_sidebar_fill_color":"EFEFEF",
+      "notifications":false
+   },
+   "favorited":false
+}
