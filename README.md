@@ -7,11 +7,10 @@ NETS 150
 
 Due May 4, 2015 
 
-Chillier, Not Chiller: Analyzing Twitter Data to Confirm the West-Coast-Is-More-Chill 
+# Chillier, Not Chiller: Analyzing Twitter Data to Confirm the West-Coast-Is-More-Chill 
 
-Hypothesis 
 
-Introduction 
+## Introduction 
 
 West Coasters love to brag about their laidback
 demeanor while stereotyping East Coasters as
@@ -24,21 +23,21 @@ suggest neuroticism (e.g., “omg,” “ugh,” ‘hate,” “wow”), we calc
 ratios” of various locations. Based on these metrics, we evaluated “chillness” on both coasts in
 attempt to settle the civil dispute of our generation. 
 
-Hypothesis 
+## Hypothesis 
 
 We examined the following hypothesis: the ratio of “chill” words to “neurotic” words used by
 the West Coast is greater. 
 
-Procedure 
+## Procedure 
 
-Part 1: Accessing the Twitter API and using Twitter4J library 
+### Part 1: Accessing the Twitter API and using Twitter4J library 
 
 To interact with Twitter and gain access to tweets sent by our target groups, we created several
 Twitter applications and generated Twitter API keys, access tokens and secret keys. After receiving our credentials to access Twitter API, our group started looking through open
 source Java libraries to i ntegrate our Java application with the Twitter service. Twitter4J i s an
 unofficial Java library for the Twitter API.
 
-Part 2: Setting up the connection
+### Part 2: Setting up the connection
 In this part we focused on creating a successful connection to Twitter API 1.1. We created a
 Setup class, which was responsible for creating necessary access to Twitter API for our purposes.
 
@@ -52,7 +51,7 @@ up the necessary authorizations for our ConfigurationBuilder.
 Return
 a Twitter object for the other classes to use. 
 
-Part 3: Reading tweets from a specific geolocation 
+### Part 3: Reading tweets from a specific geolocation 
 
 To test our hypothesis, we needed to access large amounts of tweets sent by users in a very
 specific geographic location. Our solution was to use a data class in Twitter4J library called
@@ -61,7 +60,7 @@ a specific query with our geographic location. Then we used the Query class (wit
 Twitter4J library) to search for the tweets. The TweetReader class received the Twitter object
 from Setup class, so we just had to call the search method of our Twitter object. 
 
-Part 4: Reading the tweets in JSON format and statuses text format 
+### Part 4: Reading the tweets in JSON format and statuses text format 
 
 As we read the tweets, we saved them in a hash table that mapped each tweet’s unique ID to its
 text. This hashtable guaranteed that we did not receive the text of the same tweet twice. We then
@@ -69,7 +68,7 @@ created a word map that mapped each word to its frequency using a hash map. We a
 JSON data from each tweet that we read for crosschecking
 purposes. 
 
-Part 5: Storing the Tweets in JSON format and text format 
+### Part 5: Storing the Tweets in JSON format and text format 
 
 We created a Logger class and used the Observer Observable
 Pattern to write the text of each
@@ -78,7 +77,7 @@ read a status, the text of that status was added to a text file. We used this fi
 created for our hypothesis. JUnit test case was written to make sure we mapped the right word,
 frequency map. The results are represented in the last part. 
 
-Part 6: Creating the main method 
+### Part 6: Creating the main method 
 
 We created one set of words we deemed “chill” words, which tend to have mild, positive
 connotations, and one set of words we deemed “neurotic” words, which tend to have more
@@ -95,7 +94,7 @@ radius from a given location (specified by latitude and
 longitude points in TweetReader.java), divided by the number of occurrences of “neurotic”
 words found within those tweets.
 
-Analysis and Conclusion 
+## Analysis and Conclusion 
 
 We found that the average East Coast chill/neurotic ratio (1.4032) is lower than the average West
 Coast chill/neurotic ratio (1.8729). Therefore, even though both coasts use “chill” words more
@@ -134,7 +133,7 @@ a limit on the amount of
 information that can be accessed given a different time period. Thus repeatedly performing the
 experiment across time would also require more developer accounts.
 
-Part 7: Verifying our results:
+### Part 7: Verifying our results:
 
 To verify that our Word Map is correct, we created another Word Map in the ReadFile class,
 which parses through each line of the text file that contains the 2000 tweets in raw text format
